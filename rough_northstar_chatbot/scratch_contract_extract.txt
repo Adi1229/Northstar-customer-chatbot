@@ -1,0 +1,125 @@
+
+--- PAGE 1 ---
+As a freelancer in the simulated project, you will build a functional customer support chatbot that
+could be used by a small e-commerce business specializing in outdoor apparel and camping
+gear.
+All required business context, data, and requirements are provided below.
+1. Brand Persona
+a. Name: North Star Support Bot (or similar)
+b. Tone: friendly, helpful, outdoorsy, concise
+c. Audience: North American outdoor consumers
+2. Core Use Cases (required)
+a. The chatbot must handle:
+i. Order Tracking
+1. Ask for order number
+2. Return simulated status
+ii. Return & Exchanges
+1. Explain return policy
+2. Provide returns link
+iii. Product Recommendations
+1. Ask 1-2 clarifying questions
+2. Recommend product category
+iv. Human Handoff
+1. Handle fallback or explicit request
+2. Transition to “Live Agent” state
+3. Functional Requirements
+a. Intent Recognition
+i. Handle variations (e.g., “Where is my order?” vs. “Track my package”)
+b. Conversation Flow
+i. Logical, guided interactions
+ii. Return user to main flow after resolution
+c. Mock Order Handling
+i. Use the following order status information exactly as provided:
+1. Order #111 -> Shipped, arriving tomorrow
+2. Order #222 -> Processing, ships in 24 hours
+3. Order #333 -> Delivered (ask follow-up if needed)
+4. Any other order -> invalid order
+d. Customer Support Information
+i. Your chatbot must accurately provide the following information when
+responding to customer inquiries:
+1. Return Policy
+a. 30-day returns
+b. Items must be unused
+c. Original packaging required
+2. Shipping Information:
+--- PAGE 2 ---
+a. Standard shipping: 3-5 business days
+b. Expedited shipping: 1-2 business days
+e. Human Handoff
+i. When a user requests a live agent or reaches a fallback scenario, the
+chatbot must:
+1. Transition the user to a simulated Live Agent state
+2. Clearly communicate the handoff
+3. Allow the user to return to the main menu or continue interacting
+with the chatbot after the handoff
+ii. Fallback Handling
+1. Clear “I didn’t understand” response
+2. Offer options or escalation
+4. Provided Materials
+a. Return Policy: 30-day returns, unused items, original packaging
+b. Shipping:
+i. Standard: 3-5 days
+ii. Expedited: 1-2 days
+5. Constraints
+a. No deployment required
+b. Use provided data only
+c. Ensure flows are clear and functional
+d. Keep implementation practical and testable
+6. Evaluation Criteria
+a. Coverage of all required use cases
+b. Quality and clarity of conversation flows
+c. Accuracy of responses based on provided data
+d. Effectiveness of intent handling
+e. Overall usability of chatbot experience
+7. Deliverables
+a. Testing Requirements
+i. Your submission must be fully reviewable at the time of submission.
+Evaluators should be able to access and test your chatbot without:
+1. Adding API keys
+2. Purchasing subscriptions
+3. Creating additional accounts
+4. Completing implementation steps on your behalf
+ii. If your implementation requires external services, provide a fully testable
+version or access that allows evaluators to complete the required review
+b. Chatbot Implementation
+i. Exported bot file OR Code Repository (with instructions)
+c. Video Demo
+i. 2 - 3 minute recording
+ii. Must demonstrate:
+1. All 4 core use cases
+--- PAGE 3 ---
+2. At least one fallback scenario
+d. Submission Checklist
+i. Before submitting your work, confirm that:
+1. All four required use cases are implemented
+2. Order tracking follows the provided mock data exactly
+3. Return policy and shipping information are included where
+required
+4. Intent recognition supports multiple user phrasing variations
+5. Fallback handling is implemented
+6. Users can return to the main menu after a human handoff
+7. The chatbot can be reviewed without API keys or additional steps
+8. Your video demonstrates:
+a. All four use cases
+b. At least one fallback scenario
+9. All required deliverables are included and clearly labeled
+SLA Expectations
+As part of the Upwork Talent Accelerator program, you are expected to work within specific
+timeframes at each stage of the process. Your submission will be evaluated exactly as
+submitted. Evaluators will verify that your chatbot:
+● Meets all project requirements
+● Accurately follows the provided business rules
+● Is complete and fully testable
+● Includes all required deliverables.
+Here’s what’s expected of you:
+● Review & Accept Contract (within 24 hrs)
+○ When you receive your contract, review the scope and confirm your acceptance
+within 24 hrs. Work should not begin until contact is accepted.
+● Complete & Submit Work (24 - 48 hrs)
+○ Once you have accepted the contract, begin work promptly and complete and
+submit all required deliverables within 24 - 48 hours
+● Acknowledge Outcomes (within 24 hours)
+○ Once feedback or a decision is shared (approved, revisions requested, etc.)
+review and confirm steps within 24 hours.
+● Complete Revisions (within 24 hours)
+○ If revisions are requested, update and resubmit your work within 24 hours
